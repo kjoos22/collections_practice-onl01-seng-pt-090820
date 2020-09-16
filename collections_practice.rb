@@ -33,7 +33,9 @@ end
 def find_a(strings)
   strings.map do |string|
     if string[0] != "a"
-      binding.pry
+      string.delete
+    else
+      x=1
     end
   end
   strings

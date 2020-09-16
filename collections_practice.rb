@@ -42,6 +42,6 @@ def find_a(strings)
       i += 1
     end
   end
-  binding.pry
+  #binding.pry
   strings
 end

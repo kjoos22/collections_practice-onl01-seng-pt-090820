@@ -35,7 +35,7 @@ def find_a(strings)
     if string[0] != "a"
       string.delete
     else
-      x=1
+      string = string
     end
   end
   strings

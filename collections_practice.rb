@@ -44,5 +44,5 @@ def find_a(strings)
     end
   end
   #binding.pry
-  strings
+  new_strings
 end

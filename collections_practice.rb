@@ -39,5 +39,6 @@ def find_a(strings)
       string = string
     end
   end
+  binding.pry
   strings
 end

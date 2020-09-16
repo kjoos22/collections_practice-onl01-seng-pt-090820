@@ -33,6 +33,7 @@ end
 def find_a(strings)
   i = 0
   strings.map do |string|
+    binding.pry
     if string[0] != "a"
       strings.delete_at(i)
       i += 1

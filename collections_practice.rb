@@ -36,9 +36,10 @@ def find_a(strings)
     binding.pry
     if string[0] == "a"
       string = string
+      i += 1
     else
       strings.delete_at(i)
-      i += 1
+      #i += 1
     end
   end
   #binding.pry

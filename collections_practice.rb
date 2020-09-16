@@ -31,11 +31,14 @@ def kesha_maker(strings)
 end
 
 def find_a(strings)
+  i = 0
   strings.map do |string|
     if string[0] != "a"
-      strings.delete
+      strings.delete_at(i)
+      i += 1
     else
       string = string
+      i += 1
     end
   binding.pry
   strings

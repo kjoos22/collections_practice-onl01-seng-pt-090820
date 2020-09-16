@@ -34,11 +34,11 @@ def find_a(strings)
   i = 0
   strings.map do |string|
     binding.pry
-    if string[0] != "a"
-      strings.delete_at(i)
+    if string[0] == "a"
+      string = string
       i += 1
     else
-      string = string
+      strings.delete_at(i)
       i += 1
     end
   end

@@ -34,7 +34,7 @@ def find_a(strings)
   i = 0
   new_strings = []
   strings.each do |string|
-    binding.pry
+    #binding.pry
     if string[0] == "a"
       new_strings[i] = string
       i += 1

@@ -34,7 +34,6 @@ def find_a(strings)
   i = 0
   new_strings = []
   strings.each do |string|
-    #binding.pry
     if string[0] == "a"
       new_strings[i] = string
       i += 1
@@ -43,6 +42,5 @@ def find_a(strings)
       #i += 1
     end
   end
-  #binding.pry
   new_strings
 end

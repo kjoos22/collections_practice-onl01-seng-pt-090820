@@ -40,7 +40,8 @@ def find_a(strings)
       string = string
       i += 1
     end
+  end
   binding.pry
   strings
-end
+
 end

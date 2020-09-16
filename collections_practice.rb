@@ -43,5 +43,4 @@ def find_a(strings)
   end
   binding.pry
   strings
-
 end
